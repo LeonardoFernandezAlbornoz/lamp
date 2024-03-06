@@ -1,0 +1,1 @@
+docker exec basedatos bash -c "mysq -u user -p bd < bd/backup.sql" 

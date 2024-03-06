@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    build: apache
+    ports:
+      - 80:80
+      - 443:443
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app
+      - ./apache/certificados/daw2324.casacam.net.pem:/etc/ssl/certs/daw2324.casacam.net.pem
+      - ./apache/certificados/daw2324.casacam.net.key:/etc/ssl/private/daw2324.casacam.net.key
+      - ./apache/a22leonardofa.giize.com.conf:/etc/apache2/sites-enabled/a22leonardofa.giize.com.conf
