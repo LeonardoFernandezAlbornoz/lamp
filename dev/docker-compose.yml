@@ -9,26 +9,20 @@ services:
       - .env
     volumes:
       - ./app:/app
-      - ./apache/certificados/a22leonardofa.giize.com.pem:/etc/ssl/certs/a22leonardofa.giize.com.pem
-      - ./apache/certificados/a22leonardofa.giize.com.key:/etc/ssl/private/a22leonardofa.giize.com.key
+      - ./apache/certificados:/certificados/
       - ./apache/a22leonardofa.giize.com.conf:/etc/apache2/sites-enabled/a22leonardofa.giize.com.conf
   basedatos:
     image: mysql:latest
     env_file:
       - .env_bd
     volumes:
-      - ./bd/backup.sql:/docker-entrypoint-initdb.d/backup.sql
+      - ./bd/backup/:/docker-entrypoint-initdb.d
       - datos:/var/lib/mysql
   phpmyadmin:
     image: phpmyadmin
     ports:
       - 8080:80
-    volumes:
-      - ./bd/backup.sql:/docker-entrypoint-initdb.d/backup.sql
-      - ./bd:/bd
-      - datos:/var/lib/mysql
     env_file:
       - .env_pma
-
 volumes:
   datos:
