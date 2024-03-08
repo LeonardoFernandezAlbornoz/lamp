@@ -10,3 +10,4 @@ services:
     volumes:
       - ./app:/app
       - ./apache/certificados:/certificados
+      - ./apache/a22leonardofa.giize.com.conf:/etc/apache2/sites-enabled/a22leonardofa.giize.com.conf
