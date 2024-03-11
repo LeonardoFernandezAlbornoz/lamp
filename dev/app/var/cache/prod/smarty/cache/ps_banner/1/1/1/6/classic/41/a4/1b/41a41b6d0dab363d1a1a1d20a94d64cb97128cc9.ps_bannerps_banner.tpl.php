@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-08 14:04:32
+/* Smarty version 4.3.4, created on 2024-03-11 09:54:01
   from 'module:ps_bannerps_banner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65eb0ce0d44d98_20149354',
+  'unifunc' => 'content_65eec6a9755060_23460148',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,9 +18,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_65eb0ce0d44d98_20149354 (Smarty_Internal_Template $_smarty_tpl) {
-?><a class="banner" href="https://a22leonardofa.giize.com/index.php" title="">
-      <img src="https://a22leonardofa.giize.com/modules/ps_banner/img/sale70.png" alt="" title="" class="img-fluid" loading="lazy" width="1110" height="213">
+function content_65eec6a9755060_23460148 (Smarty_Internal_Template $_smarty_tpl) {
+?><a class="banner" href="https://www.a22leonardofa.giize.com/" title="">
+      <img src="https://www.a22leonardofa.giize.com/modules/ps_banner/img/sale70.png" alt="" title="" class="img-fluid" loading="lazy" width="1110" height="213">
   </a>
 <?php }
 }

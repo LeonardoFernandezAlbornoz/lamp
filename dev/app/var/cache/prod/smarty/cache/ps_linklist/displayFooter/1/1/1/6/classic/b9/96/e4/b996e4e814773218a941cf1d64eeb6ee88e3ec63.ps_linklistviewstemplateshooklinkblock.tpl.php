@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-04 16:27:24
+/* Smarty version 4.3.4, created on 2024-03-11 09:53:56
   from 'module:ps_linklistviewstemplateshooklinkblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65e5e85c78dca1_37979582',
+  'unifunc' => 'content_65eec6a4e9c507_04897871',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,13 +18,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_65e5e85c78dca1_37979582 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65eec6a4e9c507_04897871 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
-    'compiled_filepath' => '/app/var/cache/prod/smarty/compile/classiclayouts_layout_left_column_tpl/0d/5c/05/0d5c0554a4b6490c02944028546e848cfcdb1583_2.file.helpers.tpl.php',
+    'compiled_filepath' => '/app/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/0d/5c/05/0d5c0554a4b6490c02944028546e848cfcdb1583_2.file.helpers.tpl.php',
     'uid' => '0d5c0554a4b6490c02944028546e848cfcdb1583',
-    'call_name' => 'smarty_template_function_renderLogo_164649300765e5e85c6a6a05_92836929',
+    'call_name' => 'smarty_template_function_renderLogo_48706499365eec6a4df3434_41321555',
   ),
 ));
 ?><div class="col-md-6 links">
@@ -45,7 +45,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-product-page-prices-drop-1"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/productos-rebajados"
+                href="https://www.a22leonardofa.giize.com/productos-rebajados"
                 title="Nuestros productos especiales"
                             >
               Ofertas
@@ -55,7 +55,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-product-page-new-products-1"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/novedades"
+                href="https://www.a22leonardofa.giize.com/novedades"
                 title="Novedades"
                             >
               Novedades
@@ -65,7 +65,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-product-page-best-sales-1"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/mas-vendidos"
+                href="https://www.a22leonardofa.giize.com/mas-vendidos"
                 title="Los más vendidos"
                             >
               Los más vendidos
@@ -89,7 +89,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-1-2"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/content/1-entrega"
+                href="https://www.a22leonardofa.giize.com/content/1-entrega"
                 title="Nuestros términos y condiciones de envío"
                             >
               Envío
@@ -99,7 +99,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-2-2"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/content/2-aviso-legal"
+                href="https://www.a22leonardofa.giize.com/content/2-aviso-legal"
                 title="Aviso legal"
                             >
               Aviso legal
@@ -109,7 +109,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-3-2"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/content/3-terminos-y-condiciones-de-uso"
+                href="https://www.a22leonardofa.giize.com/content/3-terminos-y-condiciones-de-uso"
                 title="Nuestros términos y condiciones"
                             >
               Términos y condiciones
@@ -119,7 +119,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-4-2"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/content/4-sobre-nosotros"
+                href="https://www.a22leonardofa.giize.com/content/4-sobre-nosotros"
                 title="Averigüe más sobre nosotros"
                             >
               Sobre nosotros
@@ -129,7 +129,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-5-2"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/content/5-pago-seguro"
+                href="https://www.a22leonardofa.giize.com/content/5-pago-seguro"
                 title="Nuestra forma de pago segura"
                             >
               Pago seguro
@@ -139,7 +139,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-static-page-contact-2"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/contactenos"
+                href="https://www.a22leonardofa.giize.com/contactenos"
                 title="Contáctenos"
                             >
               Contacte con nosotros
@@ -149,7 +149,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-static-page-sitemap-2"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/mapa del sitio"
+                href="https://www.a22leonardofa.giize.com/mapa del sitio"
                 title="¿Perdido? Encuentre lo que está buscando"
                             >
               Mapa del sitio
@@ -159,7 +159,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-static-page-stores-2"
                 class="cms-page-link"
-                href="https://a22leonardofa.giize.com/tiendas"
+                href="https://www.a22leonardofa.giize.com/tiendas"
                 title=""
                             >
               Tiendas

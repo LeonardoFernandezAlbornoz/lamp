@@ -16,8 +16,9 @@ services:
     env_file:
       - .env_bd
     volumes:
-      - ./bd/backup/:/docker-entrypoint-initdb.d
+      - ./bd/backup:/docker-entrypoint-initdb.d
       - datos:/var/lib/mysql
+      - ./bd/backup:/backup
   phpmyadmin:
     image: phpmyadmin
     ports:
